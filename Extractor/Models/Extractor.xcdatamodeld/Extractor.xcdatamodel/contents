@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="addedTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="modifiedTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+        <relationship name="readPosition" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookPosition" inverseName="fromBook" inverseEntity="BookPosition"/>
+    </entity>
+    <entity name="BookPosition" representedClassName="BookPosition" syncable="YES">
+        <attribute name="abstract" optional="YES" attributeType="String"/>
+        <attribute name="column" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="line" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="page" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="fromBook" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="readPosition" inverseEntity="Book"/>
+        <relationship name="fromCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Card" inverseName="referencePosition" inverseEntity="Card"/>
+    </entity>
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="knownLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <relationship name="referencePosition" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BookPosition" inverseName="fromCard" inverseEntity="BookPosition"/>
+    </entity>
+</model>

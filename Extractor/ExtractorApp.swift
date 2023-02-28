@@ -13,7 +13,7 @@ struct ExtractorApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InputsView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

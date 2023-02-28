@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7485359299E86B30022E725 /* InputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7485358299E86B30022E725 /* InputsView.swift */; };
+		E748535D29A267D30022E725 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E748535C29A267D30022E725 /* PDFKitView.swift */; };
+		E79CF08529A910C500C748AC /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF08429A910C500C748AC /* BookManager.swift */; };
+		E79CF09829ABB47700C748AC /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09229ABB47700C748AC /* Card+CoreDataClass.swift */; };
+		E79CF09929ABB47700C748AC /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09329ABB47700C748AC /* Card+CoreDataProperties.swift */; };
+		E79CF09A29ABB47700C748AC /* BookPosition+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09429ABB47700C748AC /* BookPosition+CoreDataClass.swift */; };
+		E79CF09B29ABB47700C748AC /* BookPosition+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09529ABB47700C748AC /* BookPosition+CoreDataProperties.swift */; };
+		E79CF09C29ABB47700C748AC /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09629ABB47700C748AC /* Book+CoreDataClass.swift */; };
+		E79CF09D29ABB47700C748AC /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CF09729ABB47700C748AC /* Book+CoreDataProperties.swift */; };
 		E7DE5EA52999FDEB00D3026E /* ExtractorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE5EA42999FDEB00D3026E /* ExtractorApp.swift */; };
 		E7DE5EA72999FDEB00D3026E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE5EA62999FDEB00D3026E /* Persistence.swift */; };
 		E7DE5EAA2999FDEB00D3026E /* Extractor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7DE5EA82999FDEB00D3026E /* Extractor.xcdatamodeld */; };
-		E7DE5EAC2999FDEB00D3026E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE5EAB2999FDEB00D3026E /* ContentView.swift */; };
 		E7DE5EAE2999FDEC00D3026E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DE5EAD2999FDEC00D3026E /* Assets.xcassets */; };
 		E7DE5EB22999FDEC00D3026E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DE5EB12999FDEC00D3026E /* Preview Assets.xcassets */; };
 		E7DE5EBC2999FDEC00D3026E /* ExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE5EBB2999FDEC00D3026E /* ExtractorTests.swift */; };
@@ -36,11 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7485358299E86B30022E725 /* InputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsView.swift; sourceTree = "<group>"; };
+		E748535C29A267D30022E725 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		E79CF08429A910C500C748AC /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		E79CF09229ABB47700C748AC /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E79CF09329ABB47700C748AC /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E79CF09429ABB47700C748AC /* BookPosition+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookPosition+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E79CF09529ABB47700C748AC /* BookPosition+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookPosition+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E79CF09629ABB47700C748AC /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E79CF09729ABB47700C748AC /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E7DE5EA12999FDEB00D3026E /* Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DE5EA42999FDEB00D3026E /* ExtractorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorApp.swift; sourceTree = "<group>"; };
 		E7DE5EA62999FDEB00D3026E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E7DE5EA92999FDEB00D3026E /* Extractor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Extractor.xcdatamodel; sourceTree = "<group>"; };
-		E7DE5EAB2999FDEB00D3026E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7DE5EAD2999FDEC00D3026E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7DE5EAF2999FDEC00D3026E /* Extractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extractor.entitlements; sourceTree = "<group>"; };
 		E7DE5EB12999FDEC00D3026E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -76,6 +92,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E79CF09E29ABB4AE00C748AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE5EA82999FDEB00D3026E /* Extractor.xcdatamodeld */,
+				E7DE5EA62999FDEB00D3026E /* Persistence.swift */,
+				E79CF09229ABB47700C748AC /* Card+CoreDataClass.swift */,
+				E79CF09329ABB47700C748AC /* Card+CoreDataProperties.swift */,
+				E79CF09429ABB47700C748AC /* BookPosition+CoreDataClass.swift */,
+				E79CF09529ABB47700C748AC /* BookPosition+CoreDataProperties.swift */,
+				E79CF09629ABB47700C748AC /* Book+CoreDataClass.swift */,
+				E79CF09729ABB47700C748AC /* Book+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E79CF09F29ABB5F100C748AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE5EAD2999FDEC00D3026E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E79CF0A029ABBB4C00C748AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7485358299E86B30022E725 /* InputsView.swift */,
+				E748535C29A267D30022E725 /* PDFKitView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E7DE5E982999FDEB00D3026E = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +147,12 @@
 		E7DE5EA32999FDEB00D3026E /* Extractor */ = {
 			isa = PBXGroup;
 			children = (
-				E7DE5EA42999FDEB00D3026E /* ExtractorApp.swift */,
-				E7DE5EA62999FDEB00D3026E /* Persistence.swift */,
-				E7DE5EAB2999FDEB00D3026E /* ContentView.swift */,
-				E7DE5EAD2999FDEC00D3026E /* Assets.xcassets */,
 				E7DE5EAF2999FDEC00D3026E /* Extractor.entitlements */,
-				E7DE5EA82999FDEB00D3026E /* Extractor.xcdatamodeld */,
+				E79CF09E29ABB4AE00C748AC /* Models */,
+				E7DE5EA42999FDEB00D3026E /* ExtractorApp.swift */,
+				E79CF0A029ABBB4C00C748AC /* View */,
+				E79CF08429A910C500C748AC /* BookManager.swift */,
+				E79CF09F29ABB5F100C748AC /* Resources */,
 				E7DE5EB02999FDEC00D3026E /* Preview Content */,
 			);
 			path = Extractor;
@@ -265,10 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79CF09B29ABB47700C748AC /* BookPosition+CoreDataProperties.swift in Sources */,
+				E79CF09D29ABB47700C748AC /* Book+CoreDataProperties.swift in Sources */,
+				E79CF09A29ABB47700C748AC /* BookPosition+CoreDataClass.swift in Sources */,
+				E748535D29A267D30022E725 /* PDFKitView.swift in Sources */,
+				E79CF09829ABB47700C748AC /* Card+CoreDataClass.swift in Sources */,
+				E79CF08529A910C500C748AC /* BookManager.swift in Sources */,
 				E7DE5EA52999FDEB00D3026E /* ExtractorApp.swift in Sources */,
 				E7DE5EAA2999FDEB00D3026E /* Extractor.xcdatamodeld in Sources */,
-				E7DE5EAC2999FDEB00D3026E /* ContentView.swift in Sources */,
+				E79CF09929ABB47700C748AC /* Card+CoreDataProperties.swift in Sources */,
 				E7DE5EA72999FDEB00D3026E /* Persistence.swift in Sources */,
+				E79CF09C29ABB47700C748AC /* Book+CoreDataClass.swift in Sources */,
+				E7485359299E86B30022E725 /* InputsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
